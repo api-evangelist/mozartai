@@ -1,7 +1,26 @@
 aid: mozartai
-name: mozartai
-description: mozartai is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mozartai.png
+name: Mozart AI
+description: Mozart AI is a generative audio workstation and AI music-creation platform (mozartai.com)
+  that lets musicians compose, produce, and distribute songs using AI-assisted and agentic tools. Rather
+  than generating finished tracks from a single prompt, it operates as a full digital audio workstation
+  built around context-aware stem generation, real-time MIDI suggestions, synth and effects generation,
+  and automated production tasks such as quantization and time-stretching, letting users work at the level
+  of stems, instruments, or individual notes. Founded in 2025 and based in London, the company raised a
+  $6M seed round led by Balderton Capital in February 2026 and reports more than 100,000 artists and over
+  1 million songs created. The product is delivered as a consumer web and mobile app (built on the
+  ElevenLabs Eleven Music API) and does not currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/mozartai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Music
+- AI
+- Generative Audio
+- Music Production
+- Digital Audio Workstation
+- Consumer App
+- Media & Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://mozartai.com/
+- type: Pricing
+  url: https://mozartai.com/pricing
+- type: TermsOfService
+  url: https://mozartai.com/terms-of-service
+- type: SignUp
+  url: https://mozartai.app/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  note: Consumer AI music-creation app; no public developer API surface. Identity enriched
+    (description, tags, Pricing/TermsOfService/SignUp pointers). Built on ElevenLabs Eleven Music API.
